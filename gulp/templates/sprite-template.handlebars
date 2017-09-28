@@ -1,0 +1,69 @@
+{{#block "sprites"}}
+
+$sprite-{{../options.name}}-part = {
+{{#each sprites}}
+    '{{name}}': {
+        'name': '{{name}}',
+        'offset': {
+            'x': {{offset_x}},
+            'y': {{offset_y}},
+        },
+        'position': {
+            'x': {{x}},
+            'y': {{y}}
+        }
+        'width': {{width}},
+        'height': {{height}}
+    }
+{{/each}}
+};
+{{/block}}
+
+{{#block "spritesheet"}}
+$sprite-{{../options.name}}-items = {{#each sprites}} '{{strings.name}}'{{/each}}
+$sprite-{{../options.name}}-image = '{{spritesheet.escaped_image}}'
+{{#if options.retina}}
+$sprite-{{../options.name}}-retina-image = '{{retina_spritesheet.escaped_image}}'
+{{/if}}
+$sprite-{{../options.name}}-width = {{spritesheet.px.width}}
+$sprite-{{../options.name}}-height = {{spritesheet.px.height}}
+{{/block}}
+
+{{#options.functions}}
+sprite-{{options.name}}-width($sprite)
+    $width = $sprite-{{../options.name}}-part[$sprite].width * 1px
+    width $width
+
+sprite-{{options.name}}-height($sprite)
+    $height = $sprite-{{../options.name}}-part[$sprite].height * 1px
+    height $height
+
+sprite-{{options.name}}-tile($sprite)
+    sprite-{{options.name}}-width($sprite)
+    sprite-{{options.name}}-height($sprite)
+
+sprite-{{options.name}}-position($sprite, $scale = 1)
+    $x = $sprite-{{../options.name}}-part[$sprite].offset.x * $scale * 1px
+    $y = $sprite-{{../options.name}}-part[$sprite].offset.y * $scale * 1px
+    background-position $x $y
+
+sprite-{{options.name}}-background-size($sprite)
+    $width = $sprite-{{../options.name}}-part[$sprite].width * 1px
+    $height = $sprite-{{../options.name}}-part[$sprite].height * 1px
+    background-size $width $height
+
+sprite-{{options.name}}-background()
+    background-image image-url($sprite-{{options.name}}-image)
+    {{#if options.retina}}
+    @media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image image-url($sprite-{{options.name}}-retina-image)
+        background-size $sprite-{{../options.name}}-width $sprite-{{../options.name}}-height
+    }
+    {{/if}}
+
+sprite-{{options.name}}($sprite)
+    sprite-{{options.name}}-background($sprite)
+    sprite-{{options.name}}-position($sprite)
+    sprite-{{options.name}}-tile($sprite)
+
+{{/options.functions}}

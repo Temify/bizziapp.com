@@ -1,0 +1,53 @@
+.navigation
+  position absolute
+  left 0
+  right 0
+  top 0
+  padding 41px 0
+
+  &.fixed
+    position fixed
+
+  &__container
+    display flex
+    align-items center
+
+  &__menu
+    display none
+
+  &__menu-toggle
+    margin 0 0 0 auto
+
+  &__menu-button
+    outline none
+    border none
+    padding 8px 6px
+    background transparent
+    height 34px
+    width 46px
+    display inline-block
+
+    &:hover
+      .navigation__icon-bar
+        transform scaleX(1)
+
+  &__icon-bar
+    display block
+    background-color #F8F9FA
+    height 2px
+    width 28px
+    box-shadow 0 0 3px rgba(#000000, .2)
+    text-align right
+    margin 0 0 0 auto
+    transform-origin right center
+    transition transform $anim
+
+    &:not(:last-child)
+      margin-bottom 6px
+
+    &:nth-child(1)
+      transform scaleX(1.0714) // 30px
+    &:nth-child(2)
+      transform scaleX(1.2142) // 34px
+    &:nth-child(3)
+      transform scaleX(.8928) // 25px

@@ -1,0 +1,216 @@
+extends includes/head
+
+block body
+  body
+    include includes/navigation
+
+    header.section.section--cover.header
+      .container
+        .header__container
+          .header__content
+            .header__stamp
+              strong.header__pretitle.
+                We're
+              br
+              h1.header__title.
+                Creative agency
+              p.header__description.text--beta.
+                Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat voluptatibus.
+
+    section.section
+      .container
+        .row
+          .col-sm-7.col-md-6.thumbnail.hidden-xs
+            .responsive
+              img.shadow.responsive__node(src='assets/frontend/img/background-thumbnail.jpg', alt='Thumbnail')
+
+          .col-sm-5.col-sm-push-1.col-md-5
+            .text-block
+              h2.title--beta
+                span.title__content.
+                  Get to know us
+                span.title__background.
+                  People
+              p.text--alpha.
+                Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat voluptatibus. Modo convenire incorrupte no vis. Stet labitur laboramus est no, partiendo persequeris cu quo. In vim autem inciderint mediocritatem, case eius consectetuer sed in, qui utroque nonumes cu.
+              a.button.button--margin-top(href='#', title='Read more about this ...')
+                span.
+                  Read more
+
+    section.section
+      .container
+        .row.align--center
+          .col-xs-12
+            h2.title--beta
+              span.title__content.
+                Our values
+              span.title__background.
+                Values
+
+        .row.our-values
+          .col-md-4.our-values__block.text-block
+            h3.title--gama
+              | Passion &amp;
+              br
+              | Enthusiasm
+
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+          .col-md-4.our-values__block.text-block
+            h3.title--gama
+              | Talent &amp;
+              br
+              | Hard work
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+          .col-md-4.our-values__block.text-block
+            h3.title--gama
+              | Flexibility &amp;
+              br
+              | Availability
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+    section.section.section--dark
+      .container
+        .row
+          .col-xs-12
+            h2.title--beta
+              | Portfolio
+              span.title__background.
+                Our work
+      .portfolio
+        .portfolio__container
+          .portfolio__item
+            a.portfolio__link(href='#', title='Read more about OUR-WORK-1')
+              .hidden.
+                Project name #1
+            a.portfolio__link(href='#', title='Read more about OUR-WORK-2')
+              .hidden.
+                Project name #2
+            a.portfolio__link(href='#', title='Read more about OUR-WORK-3')
+              .hidden.
+                Project name #3
+      .container
+        .row
+          .col-xs-12.align--center
+            a.button(href='#', title='Read more').
+              Read more
+
+    section.section
+      .container
+        .row
+          .col-xs-12
+            h2.title--beta
+              | What we do
+              span.title__background.
+                Passion
+        .row.what-we-do
+          .col-md-4.text-block.what-we-do__block
+            img(src='assets/frontend/img/icon-design.svg', alt='Design').what-we-do__icon
+            h3.title--gama
+              | Web Design &amp;
+              br
+              | Development
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+          .col-md-4.text-block.what-we-do__block
+            img(src='assets/frontend/img/icon-dev.svg', alt='Development').what-we-do__icon
+            h3.title--gama
+              | iOS &amp;
+              br
+              | Android development
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+          .col-md-4.text-block.what-we-do__block
+            img(src='assets/frontend/img/icon-brand.svg', alt='Branding').what-we-do__icon
+            h3.title--gama
+              | Branding &amp;
+              br
+              | Consulting
+            p.text--gama.
+              Lorem ipsum dolor sit amet, et mei liber voluptaria repudiandae. Id per eirmod volutpat.
+            a.link.link--more(href='#', title='Read more').
+              Read more...
+
+    section.section.section--red.contact-us
+      a(href='#', title='Contact us now!').contact-us__link
+        .container
+          .row
+            .col-xs-12
+              .contact-us__text.text-block
+                p.text--contact-us-pretitle.
+                  Think we're cool?
+                p.text--contact-us-background.contact-us__shadow-text.
+                  Blackzero
+                p.text--contact-us.
+                  Contact us!
+
+    footer.section.section--cover.footer
+      .container
+        .row
+          .col-sm-4.footer__office
+            .text-block
+              .footer__col-title
+                strong.text--office-location.
+                  Brno
+                strong.text--office-country.footer__office-country.
+                  CZ
+              p.text--office-adress.footer__office-address
+                | Namesti Svobody
+                br
+                | Brno 602 000
+
+          .col-sm-4.footer__office
+            .text-block
+              .footer__col-title
+                strong.text--office-location.
+                  Prague
+                strong.text--office-country.footer__office-country.
+                  CZ
+              p.text--office-adress.footer__office-address
+                | Vaclavske Namesti 123
+                br
+                | 110 00 Prague
+
+          .col-sm-4.footer__office
+            .footer__col-title
+              ul.social
+                li.social__item
+                  a.social__link(href='#', title='Facebook')
+                    span.icon.icon-facebook
+                      .hidden Facebook
+                li.social__item
+                  a.social__link(href='#', title='Twiter')
+                    span.icon.icon-twitter
+                      .hidden Twitter
+                li.social__item
+                  a.social__link(href='#', title='Dribbble')
+                    span.icon.icon-dribbble
+                      .hidden Dribbble
+                li.social__item
+                  a.social__link(href='#', title='LinkedIn')
+                    span.icon.icon-linkedin
+                      .hidden LinkedIn
+                li.social__item
+                  a.social__link(href='#', title='Behance')
+                    span.icon.icon-behance
+                      .hidden Behance
+
+            .text-block
+              a.link(href='#', title='Contact us').
+                coffee@blackzero.co

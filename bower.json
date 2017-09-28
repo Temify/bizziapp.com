@@ -1,0 +1,25 @@
+{
+  "name": "bookr.com",
+  "version": "0.0.0",
+  "authors": [
+    "Vladimir Vanek <vladimir.vanek@strv.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.2",
+    "velocity": "*",
+    "enquire": "*",
+    "es5-shim": "*",
+    "console-polyfill": "*",
+    "fastclick": "*",
+    "jquery.easing": "*",
+    "matchmedia": "*"
+  }
+}

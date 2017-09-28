@@ -1,0 +1,29 @@
+.title--beta
+  color #000000
+  position relative
+  margin 20px 0 33px
+
+  .title__background
+    color $color-bg-grey
+    position absolute
+    top 0
+    width 100%
+    left 0
+
+    .align--center &
+      text-align center
+
+  .title__content
+    position relative
+    z-index 1
+
+    &:after
+      display block
+      content ' '
+      background-color $color-red
+      margin-top 3px
+      width 67px
+      height 5px
+      position absolute
+      left 0
+      top 100%

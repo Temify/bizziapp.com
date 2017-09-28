@@ -1,0 +1,42 @@
+.button
+  display inline-block
+  border none
+  background $color-red
+  color white
+  border-radius 2px
+  min-width 165px
+  height 50px
+  line-height 50px
+  text-align center
+  position relative
+  overflow hidden
+
+  &:after
+    display block
+    content ' '
+    position absolute
+    width 120%
+    height 100%
+    top 0
+    left 110%
+    background $color-red-hover
+    opacity 0
+    transform skew(-10deg)
+    transition opacity $anim,
+      left .001s $anim,
+      transform .001s $anim
+
+  &:hover
+    &:after
+      left -10%
+      transform skew(-24deg)
+      opacity 1
+      transition left $anim,
+        transform $anim
+
+  span
+    position relative
+    z-index 1
+
+  &--margin-top
+    margin-top 74px
