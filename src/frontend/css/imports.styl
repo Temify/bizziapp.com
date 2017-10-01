@@ -1,3 +1,5 @@
+
+/*
 @import 'base/normalize'
 @import 'base/variables'
 @import 'base/fonts'
@@ -6,11 +8,27 @@
 @import '_exports/*'
 
 
-@import 'base/placeholders'
-@import 'base/base'
-@import 'base/typography'
-
 @import 'components/*'
 @import 'objects/*'
 @import 'trumps/*'
 @import 'plugins/*'
+*/
+
+$purple = #221333
+$light-blue = #24becd
+
+.container
+  display flex
+  flex-direction column
+  max-width 1452px
+  height 100%
+  margin-left auto
+  margin-right auto
+  padding-left 131px
+  padding-right 151px
+
+@import 'base/normalize'
+@import 'base/base'
+
+@import 'components/header'
+@import 'components/footer'
