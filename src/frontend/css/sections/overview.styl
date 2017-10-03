@@ -1,0 +1,51 @@
+.overview
+  padding-top 56px
+
+  .container
+
+    .overview__row
+      display flex
+      flex-direction row
+      justify-content space-between
+      align-items center
+      min-height 405px
+      margin-bottom 70px
+
+      @media screen and (max-width $screen-xs-max)
+        flex-direction column
+        padding 0 30px
+
+        &:nth-child(2), &:last-child
+          flex-direction column-reverse
+
+      .overview__article
+        max-width 400px
+        width 100%
+        margin 0 135px
+
+        @media screen and (max-width $screen-md-max)
+          margin 0 50px
+
+        @media screen and (max-width $screen-xs-max)
+          margin 0 0 80px
+          text-align center
+
+          .overview__title
+            text-align center
+          .overview__text
+            text-align center
+
+        .overview__title
+          font-weight $weight-bold
+          font-size 30px
+          color $color-font-title
+
+        .overview__text
+          font-weight $weight-light
+          font-size 15px
+          color $color-font-article
+          line-height 21px
+
+      .overview__pic
+        max-width 704px
+        max-height 405px

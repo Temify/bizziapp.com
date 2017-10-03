@@ -1,3 +1,45 @@
 .footer
-  height 321px
-  background-color $purple
+  width 100%
+  min-height 321px
+  background-color $color-bg-purple
+  padding-top 126px
+  font-weight $weight-regular
+
+  @media screen and (max-width $screen-md-max)
+    padding 80px 30px
+
+  .container
+    flex-direction row
+
+    @media screen and (max-width $screen-md-max)
+      flex-direction column
+
+    .footer__col
+      color white
+      font-size 12px
+      line-height 21px
+      padding-left 125px
+
+      &:nth-child(2), &:last-child
+        padding-top 14px
+
+      @media screen and (max-width $screen-md-max)
+        padding-left 0
+
+        &:nth-child(2)
+          text-align center
+
+        &:last-child
+          text-align right
+
+      .footer__link
+        color white
+        text-decoration none
+        border-bottom solid 1px transparent
+        transition border 0.2s ease-in-out
+
+        &:hover
+          border-bottom solid 1px white
+
+      .footer__address
+        font-style normal

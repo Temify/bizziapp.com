@@ -1,0 +1,66 @@
+.header.product
+  height 742px
+  width 100%
+  background-color $color-header-product-bg
+  position relative
+
+  .header__layer
+    width 100%
+    height 100%
+    background-color $color-header-product-layer
+    position absolute
+    top 0
+    left 0
+    z-index 0
+
+  .container
+    background-size cover
+    align-items center
+    position relative
+    z-index 1
+
+    .header__layer
+      width 100%
+      height 100%
+      background-color $color-header-product-layer
+      position absolute
+      top 0
+      left 0
+      z-index -1
+
+    .header__title
+      text-align center
+      margin-top 0
+      margin-bottom 0
+
+      @media screen and (max-width $screen-xs-max)
+        margin-top 100px
+
+    .header__tablet
+      max-width 497px
+      max-height 322px
+      width 100%
+      height auto
+      position absolute
+      bottom 0
+
+      @media screen and (max-width 31.25em)
+        bottom -4px
+
+    .header__slide-up
+      position absolute
+      right 155px
+      bottom 142px
+      cursor pointer
+      z-index 1
+
+      @media screen and (max-width $screen-sm-max)
+        bottom 350px
+        right 100px
+
+      @media screen and (max-width $screen-xs-max)
+        right auto
+        bottom 360px
+
+      @media screen and (max-width 31.25em)
+        bottom 300px

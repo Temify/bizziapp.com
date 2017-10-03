@@ -21,17 +21,13 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header__lang"><a href="#" class="header__lang_cz">cz</a><a href="#" class="header__lang_en">EN</a></div>
-        <div class="header__logo">
-          <picture>
-            <source media="(min-width: 1920px)" srcset="assets/frontend/img/logo-3x.png">
-            <source media="(min-width: 1200px)" srcset="assets/frontend/img/logo-2x.png">
-            <source media="(min-width: 768px)" srcset="assets/frontend/img/logo-1x.png"><img src="assets/frontend/img/logo-0.5x.png" alt="logo" width="113px" height="28px">
-          </picture>
+      <div style="background-image: url('../public/assets/frontend/img/header-bg.png');" class="container">
+        <div class="header__lang"><a href="#" class="header__lang_cz">cz</a>
+          <div class="header__line"></div><a href="#" class="header__lang_en">EN</a>
         </div>
+        <div class="header__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div>
         <div class="header__login-wrap"><a href="#" class="header__product">produkt</a>
-          <button class="header__login">přihlásit</button><img src="assets/frontend/img/hand.svg" alt="hand pointer" width="16px" height="17px">
+          <button class="header__login">přihlásit</button><img src="assets/frontend/img/hand.png" alt="hand pointer" width="16px" height="17px" class="header__hand">
         </div>
         <h1 class="header__title">Dokonalé zázemí pro obchodníky</h1>
         <div class="header__description">Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.</div>
@@ -39,113 +35,94 @@
         <button type="submit" value="submit" class="header__send">Odeslat</button>
       </div>
     </header>
-    <header class="header">
-      <div class="container">
-        <div class="header__lang"><a href="#" class="header__lang_cz">cz</a><a href="#" class="header__lang_en">EN</a></div>
+    <header class="header product">
+      <div class="header__layer"></div>
+      <div style="background-image: url('../public/assets/frontend/img/header__product.png');" class="container">
+        <div class="header__layer"></div>
+        <div class="header__lang"><a href="#" class="header__lang_cz">cz</a>
+          <div class="header__line"></div><a href="#" class="header__lang_en">EN</a>
+        </div>
         <div class="header__login-wrap"><a href="#" class="header__product">produkt</a>
           <button class="header__login">přihlásit</button>
         </div>
         <h1 class="header__title">Dokonalé zázemí pro obchodníky</h1>
-        <div class="header__tablet">
-          <picture>
-            <source media="(min-width: 1920px)" srcset="assets/frontend/img/tablet-3x.png">
-            <source media="(min-width: 1200px)" srcset="assets/frontend/img/tablet-2x.png">
-            <source media="(min-width: 768px)" srcset="assets/frontend/img/tablet-1x.png"><img src="assets/frontend/img/tablet-0.5x.png" alt="tablet" width="663px" height="323px">
-          </picture>
-        </div>
-        <div class="header__slide-up"></div>
+        <div class="header__tablet"><img src="assets/frontend/img/tablet.png" alt="tablet" width="100%" height="auto"></div><img src="assets/frontend/img/arrow.png" alt="arrow up" width="27px" height="27px" class="header__slide-up">
       </div>
     </header>
     <section class="overview">
       <div class="container">
         <div class="overview__row">
-          <h2 class="overview__title left">PŘEHLED 360</h2>
-          <div class="overview__article left">
-            Se sofistikovanou 360kou – detailním přehledem
-            klienta, společnosti a obchodu, máte veškeré
-            informace uloženy srozumitelně, kompaktně a
-            vždy po ruce. Vše od úkolu, schůzek či fází
-            obchodu až po přiložené soubory a smlouvy
-            přehledné na jednom místě. Celá karta poté
-            nabízí i možnost chronologického seřazení
-            veškerých aktivit od prvního kontaktu až po
-            poslední telefonát ve formě intuitivní časové osy.
-            To vše v uživatelsky přátelské formě.
+          <div class="overview__article">
+            <h2 class="overview__title">PŘEHLED 360</h2>
+            <div class="overview__text">
+              Se sofistikovanou 360kou – detailním přehledem
+              klienta, společnosti a obchodu, máte veškeré
+              informace uloženy srozumitelně, kompaktně a
+              vždy po ruce. Vše od úkolu, schůzek či fází
+              obchodu až po přiložené soubory a smlouvy
+              přehledné na jednom místě. Celá karta poté
+              nabízí i možnost chronologického seřazení
+              veškerých aktivit od prvního kontaktu až po
+              poslední telefonát ve formě intuitivní časové osy.
+              To vše v uživatelsky přátelské formě.
+            </div>
           </div>
-          <div class="overview__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/overview-pic1-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/overview-pic1-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/overview-pic1-1x.png"><img src="assets/frontend/img/overview-pic1-0.5x.png" alt="Web Design Temify" width="704px" height="405px">
-            </picture>
+          <div class="overview__pic"><img src="assets/frontend/img/web-design.png" alt="Web Design Temify" width="100%" height="auto"></div>
+        </div>
+        <div class="overview__row">
+          <div class="overview__pic"><img src="assets/frontend/img/my-tasks.png" alt="Moje úkoly" width="100%" height="auto"></div>
+          <div class="overview__article">
+            <h2 class="overview__title align--right">PŘEHLED 360</h2>
+            <div class="overview__text align--right">
+              Naše fronty jsou inteligentní. Přizpůsobíme nebo
+              je doporučíme na míru dle tempa Vaší
+              společnosti, aby ste díky automatizaci získali
+              maximum. Ke každému úkolu lze přiřadit nejen
+              podúkoly, soubory nebo komentáře, ale proste
+              cokoli, je potřeba. Fronta úkolu zároveň respektuje
+              hierarchii zadání – od firemní, pres týmovou, až po
+              tu individuální.
+            </div>
           </div>
         </div>
         <div class="overview__row">
-          <div class="overview__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/overview-pic2-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/overview-pic2-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/overview-pic2-1x.png"><img src="assets/frontend/img/overview-pic2-0.5x.png" alt="Moje úkoly" width="683px" height="392px">
-            </picture>
+          <div class="overview__article">
+            <h2 class="overview__title">PRŮVODCE SCHŮZKOU</h2>
+            <div class="overview__text">
+              Se sofistikovanou 360kou – detailním přehledem
+              klienta, společnosti a obchodu, máte veškeré
+              informace uloženy srozumitelně, kompaktně a
+              vždy po ruce. Vše od úkolu, schůzek či fází
+              obchodu až po přiložené soubory a smlouvy
+              přehledné na jednom místě. Celá karta poté
+              nabízí i možnost chronologického seřazení
+              veškerých aktivit od prvního kontaktu až po
+              poslední telefonát ve formě intuitivní časové osy.
+              To vše v uživatelsky přátelské formě.
+            </div>
           </div>
-          <h2 class="overview__title right">PŘEHLED 360</h2>
-          <div class="overview__article right">
-            Naše fronty jsou inteligentní. Přizpůsobíme nebo
-            je doporučíme na míru dle tempa Vaší
-            společnosti, aby ste díky automatizaci získali
-            maximum. Ke každému úkolu lze přiřadit nejen
-            podúkoly, soubory nebo komentáře, ale proste
-            cokoli, je potřeba. Fronta úkolu zároveň respektuje
-            hierarchii zadání – od firemní, pres týmovou, až po
-            tu individuální.
-          </div>
+          <div class="overview__pic"><img src="assets/frontend/img/meeting-guide.png" alt="Prúvodce schůzkou - Střední Čechy" width="100%" height="auto"></div>
         </div>
         <div class="overview__row">
-          <h2 class="overview__title left">PRŮVODCE SCHŮZKOU</h2>
-          <div class="overview__article left">
-            Se sofistikovanou 360kou – detailním přehledem
-            klienta, společnosti a obchodu, máte veškeré
-            informace uloženy srozumitelně, kompaktně a
-            vždy po ruce. Vše od úkolu, schůzek či fází
-            obchodu až po přiložené soubory a smlouvy
-            přehledné na jednom místě. Celá karta poté
-            nabízí i možnost chronologického seřazení
-            veškerých aktivit od prvního kontaktu až po
-            poslední telefonát ve formě intuitivní časové osy.
-            To vše v uživatelsky přátelské formě.
-          </div>
-          <div class="overview__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/overview-pic3-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/overview-pic3-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/overview-pic3-1x.png"><img src="assets/frontend/img/overview-pic3-0.5x.png" alt="Prúvodce schůzkou - Střední Čechy" width="688px" height="397px">
-            </picture>
-          </div>
-        </div>
-        <div class="overview__row">
-          <div class="overview__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/overview-pic4-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/overview-pic4-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/overview-pic4-1x.png"><img src="assets/frontend/img/overview-pic4-0.5x.png" alt="call" width="683px" height="392px">
-            </picture>
-          </div>
-          <h2 class="overview__title right">PŘEHLED 360</h2>
-          <div class="overview__article right">
-            Naše fronty jsou inteligentní. Přizpůsobíme nebo
-            je doporučíme na míru dle tempa Vaší
-            společnosti, aby ste díky automatizaci získali
-            maximum. Ke každému úkolu lze přiřadit nejen
-            podúkoly, soubory nebo komentáře, ale proste
-            cokoli, je potřeba. Fronta úkolu zároveň respektuje
-            hierarchii zadání – od firemní, pres týmovou, až po
-            tu individuální.
+          <div class="overview__pic"><img src="assets/frontend/img/call.png" alt="call" width="100%" height="auto"></div>
+          <div class="overview__article">
+            <h2 class="overview__title align--right">PŘEHLED 360</h2>
+            <div class="overview__text align--right">
+              Naše fronty jsou inteligentní. Přizpůsobíme nebo
+              je doporučíme na míru dle tempa Vaší
+              společnosti, aby ste díky automatizaci získali
+              maximum. Ke každému úkolu lze přiřadit nejen
+              podúkoly, soubory nebo komentáře, ale proste
+              cokoli, je potřeba. Fronta úkolu zároveň respektuje
+              hierarchii zadání – od firemní, pres týmovou, až po
+              tu individuální.
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="about-us">
-      <div class="container">
+      <div style="background-image: url('../public/assets/frontend/img/about-us-cover.png');" class="container">
         <h2 class="about-us__title">O nás</h2>
         <div class="about-us__article">
           Už od samého počátku vývoje jsme se snažili o to, aby Bizziapp dokázal ovládat kdokoli a zároveň v něm
@@ -161,13 +138,7 @@
     <section class="progress">
       <div class="container">
         <div class="progress__col">
-          <div class="progress__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/gears-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/gears-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/gears-1x.png"><img src="assets/frontend/img/gears-0.5x.png" alt="automatizace" width="155px" height="153px">
-            </picture>
-          </div>
+          <div class="progress__pic"><img src="assets/frontend/img/automatizace.png" alt="automatizace" width="155px" height="153px"></div>
           <div class="progress__order">1</div>
           <h3 class="progress__title">Automatizace</h3>
           <div class="progress__text">
@@ -179,13 +150,7 @@
           </div>
         </div>
         <div class="progress__col">
-          <div class="progress__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/customizace-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/customizace-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/customizace-1x.png"><img src="assets/frontend/img/customizace-0.5x.png" alt="customizace" width="155px" height="153px">
-            </picture>
-          </div>
+          <div class="progress__pic"><img src="assets/frontend/img/customizace.png" alt="customizace" width="155px" height="153px"></div>
           <div class="progress__order">2</div>
           <h3 class="progress__title">Customizace</h3>
           <div class="progress__text">
@@ -199,14 +164,8 @@
           </div>
         </div>
         <div class="progress__col">
-          <div class="progress__pic">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/reporting-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/reporting-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/reporting-1x.png"><img src="assets/frontend/img/reporting-0.5x.png" alt="reporting" width="155px" height="153px">
-            </picture>
-          </div>
-          <div class="progress__order">3</div>
+          <div class="progress__pic"><img src="assets/frontend/img/reporting.png" alt="reporting" width="155px" height="153px"></div>
+          <div class="progress__order progress__order--last">3</div>
           <h3 class="progress__title">Reporting</h3>
           <div class="progress__text">
             Nemarněte čas tam, kde není hodnota.
@@ -220,33 +179,22 @@
       </div>
     </section>
     <section class="contact">
-      <div class="container">
+      <div style="background-image: url('../public/assets/frontend/img/contact-cover.png');" class="container">
         <h2 class="contact__title">Buďme efektivní, buďme výkonní, buďme bizzi.</h2>
         <div class="contact__form">
           <input type="text" placeholder="Jméno a příjmení" class="contact__input">
           <input type="email" placeholder="tomas.stanislavsky@liffstudj" class="contact__input">
         </div>
         <button type="submit" value="submit" class="contact__button">Chci vědět více</button>
-        <div class="contact__contact-us">Nebo kontaktujte zde:</div><a href="mailto:bizziapp@temify.com" class="contact__email">bizziapp@temify.com</a>
-        <picture>
-          <source media="(min-width: 1920px)" srcset="assets/frontend/img/person-3x.png">
-          <source media="(min-width: 1200px)" srcset="assets/frontend/img/person-2x.png">
-          <source media="(min-width: 768px)" srcset="assets/frontend/img/person-1x.png"><img src="assets/frontend/img/person-0.5x.png" alt="person" width="449px" height="469px">
-        </picture>
+        <div class="contact__contact-us">Nebo kontaktujte zde:</div><a href="mailto:bizziapp@temify.com" class="contact__email">bizziapp@temify.com</a><img src="assets/frontend/img/person.png" alt="person" width="449px" height="469px" class="contact__picture">
       </div>
     </section>
     <footer class="footer">
       <div class="container">
         <div class="footer__col">
-          <div class="footer__logo">
-            <picture>
-              <source media="(min-width: 1920px)" srcset="assets/frontend/img/logo-3x.png">
-              <source media="(min-width: 1200px)" srcset="assets/frontend/img/logo-2x.png">
-              <source media="(min-width: 768px)" srcset="assets/frontend/img/logo-1x.png"><img src="assets/frontend/img/logo-0.5x.png" alt="logo" width="113px" height="28px">
-            </picture>
-          </div><a href="#" class="footer__link">Terms and Conditions</a>
+          <div class="footer__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div><a href="#" class="footer__link">Terms and Conditions</a>
         </div>
-        <div class="footer__col"><a href="mailto:bizziapp@temify.com" class="footer__link">E-mail: bizziapp@temify.com</a><a href="tel:+420232232262" class="footer__link">Tel.: +420 232 232 262</a></div>
+        <div class="footer__col"><a href="mailto:bizziapp@temify.com" class="footer__link">E-mail: bizziapp@temify.com<br></a><a href="tel:+420232232262" class="footer__link">Tel.: +420 232 232 262</a></div>
         <div class="footer__col">
           <address class="footer__address">
             Temify consulting, s.r.o.<br>

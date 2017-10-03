@@ -1,22 +1,19 @@
 header.header
-	.container
+	.container(style='background-image: url(\'../public/assets/frontend/img/header-bg.png\');')
 		.header__lang
 			a(href='#').header__lang_cz.
 				cz
+			.header__line
 			a(href='#').header__lang_en.
 				EN
 		.header__logo
-			picture
-				source(media='(min-width: 1920px)' srcset='assets/frontend/img/logo-3x.png')
-				source(media='(min-width: 1200px)' srcset='assets/frontend/img/logo-2x.png')
-				source(media='(min-width: 768px)' srcset='assets/frontend/img/logo-1x.png')
-				img(src='assets/frontend/img/logo-0.5x.png', alt='logo', width='113px', height='28px')
+				img(src='assets/frontend/img/logo.png', alt='logo', width='113px', height='28px')
 		.header__login-wrap
 			a(href='#').header__product.
 				produkt
 			button.header__login.
 				přihlásit
-			img(src='assets/frontend/img/hand.svg', alt='hand pointer', width='16px', height='17px')
+			img.header__hand(src='assets/frontend/img/hand.png', alt='hand pointer', width='16px', height='17px')
 		h1.header__title.
 			Dokonalé zázemí pro obchodníky
 		.header__description.

@@ -1,0 +1,88 @@
+.contact
+  width 100%
+  background-color $color-bg-contact
+  font-weight $weight-light
+
+  .container
+    min-height 573px
+    height 100%
+    width 100%
+    background-size cover
+    position relative
+    align-items center
+    padding-top 84px
+    padding-bottom 69px
+
+    @media screen and (max-width $screen-sm-max)
+      background-position 70% 0
+
+    @media screen and (max-width $screen-xs-max)
+      padding 84px 15px 69px
+
+    .contact__title
+      font-size 58px
+      font-weight $weight-bold
+      color white
+      line-height 70px
+      text-align center
+      max-width 741px
+      width 100%
+      margin-top 0
+
+      @media screen and (max-width $screen-xs-max)
+        font-size 33px
+        max-width 600px
+
+    .contact__form
+      display flex
+      flex-flow row wrap
+      justify-content space-between
+      max-width 571px
+      width 100%
+
+      .contact__input
+        max-width 271px
+        width 100%
+        height 35px
+        font-weight $weight-regular
+        font-size 13px
+        color rgba(65,65,65,0.80)
+        line-height 35px
+        text-align left
+        border none
+        outline none
+        padding 0 15px
+        margin-bottom 20px
+
+        @media screen and (max-width $screen-xs-max)
+          max-width 100%
+
+    .contact__button
+      max-width 571px
+      width 100%
+      height 43px
+      background-color $color-bg-contact-button
+      border none
+      outline none
+      font-size 16px
+      line-height 42px
+      color white
+
+    .contact__contact-us
+      font-size 15px
+      color white
+      margin 40px 0
+
+    .contact__email
+      font-size 20px
+      text-decoration none
+      color $color-header-button
+
+    .contact__picture
+      position absolute
+      right 0
+      bottom 0
+
+      @media screen and (max-width 87.5em)
+        display none
+
