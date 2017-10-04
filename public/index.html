@@ -12,7 +12,6 @@
     <!-- CSS file-->
     <link rel="stylesheet" href="assets/frontend/css/main.css">
     <!-- SEO, Open graph-->
-    <meta name="description" content="Firemní nástroj pro sledování týmové práce budování vztahů s vašimi klienty.">
     <meta property="og:description" content="Firemní nástroj pro sledování týmové práce budování vztahů s vašimi klienty.">
     <meta property="og:title" content="Dokonalé zázemí pro obchodníky">
     <meta property="og:site_name" content="Bizzi">
@@ -21,13 +20,15 @@
   </head>
   <body>
     <header class="header">
-      <div style="background-image: url('../public/assets/frontend/img/header-bg.png');" class="container">
+      <div style="background-image: url('assets/frontend/img/header-bg.png');" class="container">
         <div class="header__lang"><a href="#" class="header__lang_cz">cz</a>
           <div class="header__line"></div><a href="#" class="header__lang_en">EN</a>
         </div>
-        <div class="header__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div>
-        <div class="header__login-wrap"><a href="#" class="header__product">produkt</a>
-          <button class="header__login">přihlásit</button><img src="assets/frontend/img/hand.png" alt="hand pointer" width="16px" height="17px" class="header__hand">
+        <div class="header__wrap">
+          <div class="header__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div>
+          <div class="header__login-wrap"><a href="#" class="header__product">produkt</a>
+            <button class="header__login">přihlásit</button>
+          </div>
         </div>
         <h1 class="header__title">Dokonalé zázemí pro obchodníky</h1>
         <div class="header__description">Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.</div>
@@ -37,12 +38,12 @@
     </header>
     <header class="header product">
       <div class="header__layer"></div>
-      <div style="background-image: url('../public/assets/frontend/img/header__product.png');" class="container">
+      <div style="background-image: url('assets/frontend/img/header__product.png');" class="container">
         <div class="header__layer"></div>
         <div class="header__lang"><a href="#" class="header__lang_cz">cz</a>
           <div class="header__line"></div><a href="#" class="header__lang_en">EN</a>
         </div>
-        <div class="header__login-wrap"><a href="#" class="header__product">produkt</a>
+        <div class="header__login-wrap header__login-wrap--product"><a href="#" class="header__product">produkt</a>
           <button class="header__login">přihlásit</button>
         </div>
         <h1 class="header__title">Dokonalé zázemí pro obchodníky</h1>
@@ -122,7 +123,7 @@
       </div>
     </section>
     <section class="about-us">
-      <div style="background-image: url('../public/assets/frontend/img/about-us-cover.png');" class="container">
+      <div style="background-image: url('assets/frontend/img/about-us-cover.png');" class="container">
         <h2 class="about-us__title">O nás</h2>
         <div class="about-us__article">
           Už od samého počátku vývoje jsme se snažili o to, aby Bizziapp dokázal ovládat kdokoli a zároveň v něm
@@ -179,7 +180,7 @@
       </div>
     </section>
     <section class="contact">
-      <div style="background-image: url('../public/assets/frontend/img/contact-cover.png');" class="container">
+      <div style="background-image: url('assets/frontend/img/contact-cover.png');" class="container">
         <h2 class="contact__title">Buďme efektivní, buďme výkonní, buďme bizzi.</h2>
         <div class="contact__form">
           <input type="text" placeholder="Jméno a příjmení" class="contact__input">
@@ -191,7 +192,7 @@
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="footer__col">
+        <div class="footer__col footer__col--no-padding">
           <div class="footer__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div><a href="#" class="footer__link">Terms and Conditions</a>
         </div>
         <div class="footer__col"><a href="mailto:bizziapp@temify.com" class="footer__link">E-mail: bizziapp@temify.com<br></a><a href="tel:+420232232262" class="footer__link">Tel.: +420 232 232 262</a></div>
@@ -204,5 +205,7 @@
         </div>
       </div>
     </footer>
+    <script src="assets/frontend/js/app.js"></script>
+    <script src="assets/frontend/js/scrollreveal.min.js"></script>
   </body>
 </html>

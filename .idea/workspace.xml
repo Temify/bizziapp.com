@@ -2,70 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a040950-efa2-4f72-864c-9aca9f987253" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/objects/container.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/sections/about-us.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/sections/contact.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/sections/header__product.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/sections/overview.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/css/sections/progress.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/customizace-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/customizace-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/customizace-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/customizace-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/gears-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/gears-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/gears-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/gears-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/logo-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/logo-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/logo-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic1-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic1-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic1-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic1-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic2-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic2-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic2-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic2-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic3-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic3-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic3-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic3-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic4-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic4-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic4-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/overview-pic4-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/person-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/person-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/person-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/person-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/reporting-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/reporting-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/reporting-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/reporting-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/tablet-0.5x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/tablet-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/tablet-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/tablet-3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/frontend/views/includes/header__product.jade" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/frontend/views/includes/about-us.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/frontend/views/includes/contact.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/frontend/views/includes/overview.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/overview.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/frontend/views/includes/progress.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/progress.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/frontend/views/includes/product.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/frontend/img/hand.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/css/main.css" afterPath="$PROJECT_DIR$/public/assets/frontend/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/frontend/js/app.js" afterPath="$PROJECT_DIR$/public/assets/frontend/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/base/base.styl" afterPath="$PROJECT_DIR$/src/frontend/css/base/base.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/base/typography.styl" afterPath="$PROJECT_DIR$/src/frontend/css/base/typography.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/base/variables.styl" afterPath="$PROJECT_DIR$/src/frontend/css/base/variables.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/components/footer.styl" afterPath="$PROJECT_DIR$/src/frontend/css/components/footer.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/components/header.styl" afterPath="$PROJECT_DIR$/src/frontend/css/components/header.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/imports.styl" afterPath="$PROJECT_DIR$/src/frontend/css/imports.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/sections/contact.styl" afterPath="$PROJECT_DIR$/src/frontend/css/sections/contact.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/css/sections/header__product.styl" afterPath="$PROJECT_DIR$/src/frontend/css/sections/header__product.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/js/global.js" afterPath="$PROJECT_DIR$/src/frontend/js/global.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/footer.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/head.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/head.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/header.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/header.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade" afterPath="$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frontend/views/index.jade" afterPath="$PROJECT_DIR$/src/frontend/views/index.jade" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,12 +30,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf>
+      <file leaf-file-name="header.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frontend/css/components/header.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/product.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/header.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/frontend/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frontend/js/global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -93,6 +87,7 @@
     <findStrings>
       <find>header__d</find>
       <find>logo</find>
+      <find>rgb</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,36 +98,37 @@
       <list>
         <option value="$PROJECT_DIR$/src/frontend/views/includes/navigation.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/header2.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/head.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/views/index.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/about-us.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/contact.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/overview.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/progress.jade" />
         <option value="$PROJECT_DIR$/public/assets/frontend/css/main.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/footer.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade" />
         <option value="$PROJECT_DIR$/src/frontend/css/base/base.styl" />
         <option value="$PROJECT_DIR$/src/frontend/css/components/contact.styl" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/progress.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/header.jade" />
         <option value="$PROJECT_DIR$/src/frontend/css/base/typography.styl" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/header__product.jade" />
         <option value="$PROJECT_DIR$/src/frontend/css/objects/container.styl" />
-        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade" />
         <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/overview.jade" />
-        <option value="$PROJECT_DIR$/src/frontend/css/sections/contact.styl" />
         <option value="$PROJECT_DIR$/src/frontend/css/imports.styl" />
-        <option value="$PROJECT_DIR$/src/frontend/css/components/footer.styl" />
-        <option value="$PROJECT_DIR$/src/frontend/css/components/header.styl" />
-        <option value="$PROJECT_DIR$/src/frontend/css/sections/header__product.styl" />
         <option value="$PROJECT_DIR$/src/frontend/css/sections/progress.styl" />
         <option value="$PROJECT_DIR$/src/frontend/css/sections/overview.styl" />
-        <option value="$PROJECT_DIR$/src/frontend/css/base/variables.styl" />
         <option value="$PROJECT_DIR$/src/frontend/css/sections/about-us.styl" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/head.jade" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/frontend/js/global.js" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/footer.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/css/components/footer.styl" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/css/base/variables.styl" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/css/sections/contact.styl" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/header.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/css/sections/header__product.styl" />
+        <option value="$PROJECT_DIR$/src/frontend/views/index.jade" />
+        <option value="$PROJECT_DIR$/src/frontend/css/components/header.styl" />
       </list>
     </option>
   </component>
@@ -160,11 +156,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2024" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1993" />
+    <option name="y" value="144" />
     <option name="width" value="1277" />
-    <option name="height" value="961" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -197,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +203,17 @@
             <path>
               <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
               <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tasks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -229,7 +235,7 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
@@ -237,8 +243,8 @@
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="main.css" type="620a8d5e:NestingTreeNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
@@ -288,14 +294,6 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sections" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -303,8 +301,7 @@
               <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="trumps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
@@ -320,21 +317,13 @@
               <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bizzi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bizzi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sections" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,6 +333,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/frontend/views/includes" />
       <recent name="$PROJECT_DIR$/src/frontend/views/includes/sections" />
       <recent name="$PROJECT_DIR$/src/frontend/css/sections" />
     </key>
@@ -379,35 +369,37 @@
       <workItem from="1506771591230" duration="10048000" />
       <workItem from="1506841185599" duration="5682000" />
       <workItem from="1506932642999" duration="13642000" />
-      <workItem from="1507023529366" duration="12903000" />
+      <workItem from="1507023529366" duration="14517000" />
+      <workItem from="1507126074247" duration="8000" />
+      <workItem from="1507126107214" duration="16412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78727000" />
+    <option name="totallyTimeSpent" value="96761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="52" width="1280" height="1028" extended-state="6" />
+    <frame x="1993" y="144" width="1277" height="936" extended-state="0" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25020242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18120046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2022756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,113 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/mixins/clearfix.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/mixins/grid-framework.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/mixins/hide-text.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/mixins/images.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/mixins/percentage.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/objects/blank.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/img/background-thumbnail.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/assets/frontend/css/main.ie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/navigation.jade" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/plugins/blank.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/placeholders.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/components/section.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/components/titles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/components/shadow.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/frontend/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/frontend/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -549,18 +434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="220" column="14" lean-forward="true" selection-start-line="220" selection-start-column="14" selection-end-line="220" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frontend/css/_exports/iconfont.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,25 +462,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="89" lean-forward="true" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="98" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frontend/css/trumps/grid.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1836">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,15 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/head.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,31 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="88" lean-forward="false" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="53" column="88" lean-forward="false" selection-start-line="53" selection-start-column="88" selection-end-line="53" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,6 +508,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/imports.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/overview.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/progress.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/about-us.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/head.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="207" column="7" lean-forward="false" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/browserSync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/fonts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/watch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/components/footer.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -698,12 +644,60 @@
     <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/sections/contact.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="97" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="97" />
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/main.styl">
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/sections/about-us.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/contact.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/variables.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/sections/header__product.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/header__product.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/scrollreveal.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -711,82 +705,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/components/footer.styl">
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/frontend/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/js/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/serve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/jade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frontend/css/components/header.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="165" column="17" lean-forward="true" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/imports.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/header__product.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/overview.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/progress.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/contact.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/sections/about-us.styl">
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/includes/product.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frontend/css/base/variables.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/frontend/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>

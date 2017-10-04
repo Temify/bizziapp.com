@@ -5,32 +5,28 @@
   padding-top 126px
   font-weight $weight-regular
 
-  @media screen and (max-width $screen-md-max)
-    padding 80px 30px
+  @media screen and (max-width $screen-sm-max)
+    padding-top 73px
 
   .container
     flex-direction row
 
-    @media screen and (max-width $screen-md-max)
+    @media screen and (max-width $screen-sm-max)
       flex-direction column
+      text-align center
 
     .footer__col
       color white
       font-size 12px
       line-height 21px
       padding-left 125px
+      padding-top 14px
 
-      &:nth-child(2), &:last-child
-        padding-top 14px
+      &--no-padding
+        padding-top 0
 
-      @media screen and (max-width $screen-md-max)
+      @media screen and (max-width $screen-sm-max)
         padding-left 0
-
-        &:nth-child(2)
-          text-align center
-
-        &:last-child
-          text-align right
 
       .footer__link
         color white
