@@ -5,37 +5,37 @@
   padding-top 126px
   font-weight $weight-regular
 
-  @media screen and (max-width $screen-sm-max)
+  @media $screen-sm-max
     padding-top 73px
 
   .container
     flex-direction row
 
-    @media screen and (max-width $screen-sm-max)
+    @media $screen-sm-max
       flex-direction column
       text-align center
 
-    .footer__col
-      color white
-      font-size 12px
-      line-height 21px
-      padding-left 125px
-      padding-top 14px
+  &__col
+    color white
+    font-size 12px
+    line-height 21px
+    padding-left 125px
+    padding-top 14px
 
-      &--no-padding
-        padding-top 0
+    &--no-padding
+      padding-top 0
 
-      @media screen and (max-width $screen-sm-max)
-        padding-left 0
+    @media $screen-sm-max
+      padding-left 0
 
-      .footer__link
-        color white
-        text-decoration none
-        border-bottom solid 1px transparent
-        transition border 0.2s ease-in-out
+  &__link
+    color white
+    text-decoration none
+    border-bottom solid 1px transparent
+    transition border 0.2s ease-in-out
 
-        &:hover
-          border-bottom solid 1px white
+    &:hover
+      border-bottom solid 1px white
 
-      .footer__address
-        font-style normal
+  &__address
+    font-style normal

@@ -8,159 +8,144 @@
     background-size cover
     padding-right 145px
 
-    @media screen and (max-width 96em)
+    @media $screen-96em-max
       padding 0 30px
 
-    @media screen and (max-width $screen-md-max)
+    @media $screen-md-max
       background-position 73% 0
 
-    @media screen and (max-width $screen-xs-max)
+    @media $screen-xs-max
       padding 0 15px
       align-items center
 
-    .header__lang
-      display flex
-      flex-direction row
-      align-items baseline
-      margin-top 14px
-      margin-left auto
+  &__lang-wrap
+    display flex
+    flex-direction row
+    align-items baseline
+    margin-top 14px
+    margin-left auto
 
-      .header__lang_cz
-        font-weight $weight-bold
-        font-size 13px
-        color white
-        text-decoration none
-        border-bottom solid 1px transparent
-        transition border 0.2s ease-in-out
+  &__lang
+    font-weight $weight-bold
+    font-size 13px
+    color white
+    text-decoration none
+    border-bottom solid 1px transparent
+    transition border 0.2s ease-in-out
 
-        &:hover
-          border-bottom solid 1px white
+    &:hover
+      border-bottom solid 1px white
 
-      .header__line
-        height 12px
-        width 1px
-        background-color white
-        margin 0 8px
-
-      .header__lang_en
-        font-weight $weight-regular
-        font-size 15px
-        color white
-        text-decoration none
-        border solid 1px transparent
-        transition border 0.2s ease-in-out
-
-        &:hover
-          border-bottom solid 1px white
-
-    .header__wrap
-      display flex
-      justify-content space-between
-      width 100%
-      margin 65px 0 98px
-
-      @media screen and (max-width $screen-xs-max)
-        flex-direction column
-        align-items center
-        margin 50px 0
-        height 80px
-
-      .header__logo
-        width 113px
-
-    .header__login-wrap
-      width 187.5px
-
-      &--product
-        margin 98px 0
-        margin-left auto
-
-        @media screen and (max-width $screen-xs-max)
-          margin-right auto
-          margin-bottom 70px
-
-      .header__login
-        width 108px
-        height 28px
-        font-weight $weight-regular
-        font-size 15px
-        color white
-        border none
-        padding-bottom 3px
-        background-color $color-header-button
-        transition background-color 0.2s ease-in-out
-
-        &:hover
-          background-color rgba($color-header-button, .90)
-
-      .header__product
-        margin-right 25px
-        font-weight $weight-regular
-        font-size 15px
-        color white
-        text-decoration none
-        border-bottom solid 1px transparent
-        transition border 0.2s ease-in-out
-
-        &:hover
-          border-bottom solid 1px white
-
-    .header__title
-      max-width 505px
-      font-weight $weight-bold
-      font-size 58px
-      color white
-      line-height 70px
-      margin-top 0
-      margin-bottom 28px
-
-      @media screen and (max-width $screen-xs-max)
-        max-width 100%
-        text-align center
-        font-size 34px
-        line-height 50px
-
-    .header__description
-      max-width 424px
-      width 100%
-      font-weight $weight-light
-      font-size 20px
-      color white
-      line-height 28px
-      letter-spacing 0.8px
-      margin-bottom 28px
-
-      @media screen and (max-width $screen-xs-max)
-        margin-left auto
-        margin-right auto
-        text-align center
-        margin-bottom 60px
-
-    .header__email
-      max-width 376px
-      width 100%
-      height 35px
-      background-color rgba(white, 0.92)
-      border 1px solid white
+    &.active
       font-weight $weight-regular
-      font-size 13px
-      color rgba($color-font-title, 0.80)
-      line-height 35px
-      padding-left 15px
-      outline none
-      margin-bottom 7px
+      font-size 15px
 
-    .header__send
-      background-color $color-header-button-send
-      border 1px solid #65cce4
-      max-width 376px
-      width 100%
-      height 35px
-      font-weight $weight-light
-      font-size 16px
-      color white
-      outline none
-      transition background-color 0.2s ease-in-out
+  &__line
+    height 12px
+    width 1px
+    background-color white
+    margin 0 8px
 
-      &:hover
-        background-color rgba($color-header-button-send, .80)
+  &__wrap
+    display flex
+    justify-content space-between
+    width 100%
+    margin 65px 0 98px
+
+    @media $screen-xs-max
+      flex-direction column
+      align-items center
+      margin 50px 0
+      height 80px
+
+  &__logo
+    width 113px
+
+  &__login-wrap
+    width 187.5px
+
+  &__login
+    width 108px
+    height 28px
+    font-weight $weight-regular
+    font-size 15px
+    color white
+    border none
+    padding-bottom 3px
+    background-color $color-header-button
+    transition background-color 0.2s ease-in-out
+
+    &:hover
+      background-color rgba($color-header-button, .90)
+
+  &__product-link
+    margin-right 25px
+    font-weight $weight-regular
+    font-size 15px
+    color white
+    text-decoration none
+    border-bottom solid 1px transparent
+    transition border 0.2s ease-in-out
+
+    &:hover
+      border-bottom solid 1px white
+
+  &__title
+    max-width 505px
+    font-weight $weight-bold
+    font-size 58px
+    color white
+    line-height 70px
+    margin-top 0
+    margin-bottom 28px
+
+    @media $screen-xs-max
+      max-width 100%
+      text-align center
+      font-size 34px
+      line-height 50px
+
+  &__description
+    max-width 424px
+    width 100%
+    font-weight $weight-light
+    font-size 20px
+    color white
+    line-height 28px
+    letter-spacing 0.8px
+    margin-bottom 28px
+
+    @media $screen-xs-max
+      margin-left auto
+      margin-right auto
+      text-align center
+      margin-bottom 60px
+
+  &__email
+    max-width 376px
+    width 100%
+    height 35px
+    background-color rgba(white, 0.92)
+    border 1px solid white
+    font-weight $weight-regular
+    font-size 13px
+    color rgba($color-font-title, 0.80)
+    line-height 35px
+    padding-left 15px
+    outline none
+    margin-bottom 7px
+
+  &__send
+    background-color $color-header-button-send
+    border 1px solid #65cce4
+    max-width 376px
+    width 100%
+    height 35px
+    font-weight $weight-light
+    font-size 16px
+    color white
+    outline none
+    transition background-color 0.2s ease-in-out
+
+    &:hover
+      background-color rgba($color-header-button-send, .80)
