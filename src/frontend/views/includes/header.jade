@@ -1,23 +1,24 @@
 header.header
-	.container(style='background-image: url(\'assets/frontend/img/header-bg.png\');')
-		.header__lang-wrap
-			a(href='#').header__lang.
-				cz
-			.header__line
-			a(href='#').header__lang.active.
-				EN
-		.header__wrap
-			.header__logo
-					img(src='assets/frontend/img/logo.png', alt='logo', width='113px', height='28px')
-			.header__login-wrap
-				a(href='#').header__product-link.
-					produkt
-				button.header__login.
-					přihlásit
-		h1.header__title.
-			Dokonalé zázemí pro obchodníky
-		.header__description.
-			Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.
-		input(placeholder='E-mail' type='email').header__email
-		button(type='submit' value='submit').header__send.
-			Odeslat
+  .container(style='background-image: url(\'assets/frontend/img/header-bg.png\');')
+    .header__lang-wrap
+      a(href='#').header__lang.
+        cz
+      .header__line
+      a(href='#').header__lang.active.
+        EN
+    .header__wrap
+      .header__logo
+        img(src='assets/frontend/img/logo.png', alt='logo', width='113px', height='28px')
+      .header__login-wrap
+        a(href='product.html').header__product-link.
+          produkt
+        button.header__login.
+          přihlásit
+    .text-block
+      h1.header__title.
+        Dokonalé zázemí pro obchodníky
+      .header__description.
+        Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.
+      input(placeholder='E-mail' type='email').header__email
+      button(type='submit' value='submit').header__send.
+        Odeslat

@@ -1,9 +1,14 @@
 window.sr = ScrollReveal({
-    duration: 250,
+    duration: 400,
     delay: 2
 });
-    sr.reveal('*');
-    sr.reveal('.container', {duration: 0});
+
+sr.reveal('.text-block');
+sr.reveal('.fadeIn', {}, 40);
+sr.reveal('.fadeInRight', {origin: 'right', distance: '90px', scale: 0.95});
+sr.reveal('.fadeInLeft', {origin: 'left', distance: '90px', scale: 0.95});
+sr.reveal('.progressiveAnim', {origin: 'bottom'}, 110)
+
 
 // On click add class active to language
 

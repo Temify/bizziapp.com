@@ -1,14 +1,15 @@
 section.contact
 	.container(style='background-image: url(\'assets/frontend/img/contact-cover.png\');')
-		h2.contact__title.
+		h2.contact__title.progressiveAnim.
 			Buďme efektivní, buďme výkonní, buďme bizzi.
-		.contact__form
+		.contact__form.progressiveAnim
 			input(type='text', placeholder='Jméno a příjmení').contact__input
 			input(type='email', placeholder='tomas.stanislavsky@liffstudj').contact__input
-		button(type='submit' value='submit').contact__button.
-			Chci vědět více
-		.contact__contact-us.
-			Nebo kontaktujte zde:
-		a(href='mailto:bizziapp@temify.com').contact__email.
-			bizziapp@temify.com
-		img(src='assets/frontend/img/person.png', alt='person', width='449px', height='469px').contact__picture
+			button(type='submit' value='submit').contact__button.
+				Chci vědět více
+		.progressiveAnim.align--center
+			.contact__contact-us.
+				Nebo kontaktujte zde:
+			a(href='mailto:bizziapp@temify.com').contact__email.
+				bizziapp@temify.com
+		img(src='assets/frontend/img/person.png', alt='person', width='449px', height='469px').contact__picture.fadeInRight
