@@ -5,6 +5,32 @@
 	background-size cover
 	padding-bottom 60px
 
+	&--product
+		padding-bottom 0
+		background-color $color-header-product-bg
+		background-size cover
+		position relative
+
+		&::before
+			content ' '
+			display block
+			position absolute
+			left 0
+			top 0
+			right 0
+			bottom 0
+			background-color rgba($color-header-product-layer , .87)
+
+	&__tablet
+		margin 56px auto 0
+		max-width 400px
+
+		img
+			display block
+
+		@media $md-up
+			max-width 663px
+
 	@media $md-up
 		min-height 798px
 		height 95vh
@@ -104,6 +130,11 @@
 		line-height 70px
 		margin-top 0
 		margin-bottom 28px
+
+		../--product &
+			width 100%
+			text-align center
+			max-width 100%
 
 		@media $screen-xs-max
 			max-width 100%

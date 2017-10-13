@@ -1,6 +1,6 @@
 window.sr = ScrollReveal({
     duration: 400,
-    delay: 2
+    delay: 200
 });
 
 sr.reveal('.text-block');

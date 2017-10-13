@@ -9,8 +9,8 @@
 		display flex
 		flex-direction column
 		align-items center
-		margin 0 42px 111px
 		position relative
+		margin 0 6px 25px
 
 		@media $screen-xs-max
 			max-width 400px
@@ -18,26 +18,30 @@
 			margin 0 0 111px
 			padding 0 15px
 
-		&:not(:last-child)::after
-			content ' '
-			width 285px
-			height 1px
-			background-color $color-font-article
-			position absolute
-			top 190px
-			left 219px
-			opacity 0
-			animation progressLinesAnim 0.4s 1s
-			animation-fill-mode forwards
+		@media $md-up
+			margin 0 21px 70px
 
-			@keyframes progressLinesAnim
-				from
-					opacity 0
-				to
-					opacity 1
+		@media $lg-up
+			margin 0 42px 111px
 
-			@media $screen-md-max
-				visibility hidden
+		@media screen and (min-width: 1399px)
+			&:not(:last-child)::after
+				content ' '
+				width 285px
+				height 1px
+				background-color $color-font-article
+				position absolute
+				top 190px
+				left 219px
+				opacity 0
+				animation progressLinesAnim 0.4s 1s
+				animation-fill-mode forwards
+
+				@keyframes progressLinesAnim
+					from
+						opacity 0
+					to
+						opacity 1
 
 	&__content
 		text-align center

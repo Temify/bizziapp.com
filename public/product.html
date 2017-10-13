@@ -19,23 +19,33 @@
     <meta property="og:type" content="website">
   </head>
   <body>
-    <div class="header--product">
-      <div class="header__layer"></div>
-      <div style="background-image: url('assets/frontend/img/header__product.png');" class="container">
-        <div class="header__layer"></div>
-        <div class="header__lang-wrap"><a href="#" class="header__lang">cz</a>
-          <div class="header__line"></div><a href="#" class="header__lang active">EN</a>
+    <header style="background-image: url('assets/frontend/img/header__product.png');" class="header--product">
+      <div class="container">
+        <div class="col-xs-12">
+          <div class="header__lang-wrap"><a href="#" class="header__lang">cz</a>
+            <div class="header__line"></div><a href="#" class="header__lang active">EN</a>
+          </div>
+          <div class="header__wrap">
+            <div class="header__logo"><img src="assets/frontend/img/logo.png" alt="logo" width="113px" height="28px"></div>
+            <div class="header__login-wrap"><a href="product.html" class="header__product-link">produkt</a>
+              <button class="header__login">
+                přihlásit
+                
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="header__login-wrap"><a href="#" class="header__product-link">produkt</a>
-          <button class="header__login">přihlásit</button>
+        <div class="col-xs-12">
+          <div class="text-block">
+            <h1 class="header__title fadeIn">Dokonalé zázemí pro obchodníky</h1>
+          </div>
+          <div class="header__tablet fadeIn"><img src="assets/frontend/img/tablet.png" alt="tablet" width="100%" height="auto"></div>
         </div>
-        <h1 class="header__title fadeIn">Dokonalé zázemí pro obchodníky</h1>
-        <div class="header__tablet fadeIn"><img src="assets/frontend/img/tablet.png" alt="tablet" width="100%" height="auto"></div><img src="assets/frontend/img/arrow.png" alt="arrow up" width="27px" height="27px" class="header__slide-up">
       </div>
-    </div>
+    </header>
     <section class="overview">
-      <div class="overview__row fadeInLeft">
-        <div class="overview__article">
+      <div class="overview__row">
+        <div class="overview__article col-md-5 fadeInLeft">
           <h2 class="overview__title">PŘEHLED 360</h2>
           <div class="overview__text">
             Se sofistikovanou 360kou – detailním přehledem
@@ -50,11 +60,11 @@
             To vše v uživatelsky přátelské formě.
           </div>
         </div>
-        <div class="overview__pic"><img src="assets/frontend/img/web-design.png" alt="Web Design Temify" width="100%" height="auto"></div>
+        <div class="overview__pic fadeInRight"><img src="assets/frontend/img/web-design.png" alt="Web Design Temify" width="100%" height="auto"></div>
       </div>
-      <div class="overview__row overview__row-reverse fadeInRight">
-        <div class="overview__pic"><img src="assets/frontend/img/my-tasks.png" alt="Moje úkoly" width="100%" height="auto"></div>
-        <div class="overview__article">
+      <div class="overview__row overview__row-reverse">
+        <div class="overview__pic overview__pic--left fadeInLeft"><img src="assets/frontend/img/my-tasks.png" alt="Moje úkoly" width="100%" height="auto"></div>
+        <div class="overview__article col-md-5 fadeInRight">
           <h2 class="overview__title align--right">PŘEHLED 360</h2>
           <div class="overview__text align--right">
             Naše fronty jsou inteligentní. Přizpůsobíme nebo
@@ -65,11 +75,12 @@
             cokoli, je potřeba. Fronta úkolu zároveň respektuje
             hierarchii zadání – od firemní, pres týmovou, až po
             tu individuální.
+            
           </div>
         </div>
       </div>
-      <div class="overview__row fadeInLeft">
-        <div class="overview__article">
+      <div class="overview__row">
+        <div class="overview__article col-md-5 fadeInLeft">
           <h2 class="overview__title">PRŮVODCE SCHŮZKOU</h2>
           <div class="overview__text">
             Se sofistikovanou 360kou – detailním přehledem
@@ -84,11 +95,11 @@
             To vše v uživatelsky přátelské formě.
           </div>
         </div>
-        <div class="overview__pic"><img src="assets/frontend/img/meeting-guide.png" alt="Prúvodce schůzkou - Střední Čechy" width="100%" height="auto"></div>
+        <div class="overview__pic fadeInRight"><img src="assets/frontend/img/meeting-guide.png" alt="Prúvodce schůzkou - Střední Čechy" width="100%" height="auto"></div>
       </div>
-      <div class="overview__row overview__row-reverse fadeInRight">
-        <div class="overview__pic"><img src="assets/frontend/img/call.png" alt="call" width="100%" height="auto"></div>
-        <div class="overview__article">
+      <div class="overview__row overview__row-reverse">
+        <div class="overview__pic overview__pic--left fadeInLeft"><img src="assets/frontend/img/call.png" alt="call" width="100%" height="auto"></div>
+        <div class="overview__article col-md-5 fadeInRight">
           <h2 class="overview__title align--right">PŘEHLED 360</h2>
           <div class="overview__text align--right">
             Naše fronty jsou inteligentní. Přizpůsobíme nebo
@@ -103,8 +114,8 @@
         </div>
       </div>
     </section>
-    <section class="about-us">
-      <div style="background-image: url('assets/frontend/img/about-us-cover.png');" class="container">
+    <section style="background-image: url('assets/frontend/img/about-us-cover.png');" class="about-us">
+      <div class="container-fluid">
         <div class="text-block align--center">
           <h2 class="about-us__title">O nás</h2>
           <div class="about-us__article">
@@ -168,12 +179,12 @@
         </div>
       </div>
     </section>
-    <section class="contact">
-      <div style="background-image: url('assets/frontend/img/contact-cover.png');" class="container">
+    <section style="background-image: url('assets/frontend/img/contact-cover.png');" class="contact">
+      <div class="container">
         <h2 class="contact__title progressiveAnim">Buďme efektivní, buďme výkonní, buďme bizzi.</h2>
         <div class="contact__form progressiveAnim">
           <input type="text" placeholder="Jméno a příjmení" class="contact__input">
-          <input type="email" placeholder="tomas.stanislavsky@liffstudj" class="contact__input">
+          <input type="email" placeholder="E-mailová adresa" class="contact__input">
           <button type="submit" value="submit" class="contact__button">Chci vědět více</button>
         </div>
         <div class="progressiveAnim align--center">

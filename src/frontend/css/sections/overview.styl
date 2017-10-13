@@ -1,48 +1,64 @@
 .overview
-  padding-top 56px
-  max-width 1440px
-  margin 0 auto
+	padding-top 56px
+	margin 0 auto
+	width 100%
+	max-width 1440px
 
-  &__row
-    display flex
-    flex-direction row
-    justify-content space-between
-    align-items center
-    min-height 405px
-    margin-bottom 70px
+	&__row
+		display flex
+		flex-direction row
+		justify-content space-between
+		align-items center
+		min-height 405px
+		margin-bottom 70px
+		flex-wrap nowrap
 
-    @media $screen-xs-max
-      flex-direction column
-      padding 0 30px
+		@media $screen-sm-max
+			flex-direction column
+			padding 0 30px
 
-      &-reverse
-        flex-direction column-reverse
+			&-reverse
+				flex-direction column-reverse
 
-  &__article
-    max-width 400px
-    width 100%
-    margin 0 135px
+	&__article
+		width 100%
 
-    @media $screen-md-max
-      margin 0 50px
+		@media $md-up
+			max-width 400px
 
-    @media  $screen-xs-max
-      margin 0 0 80px
+		@media $lg-up
+			margin 0 135px
 
-      .overview__title, .overview__text
-        text-align center
+		@media $screen-md-max
+			margin 0 50px
 
-  &__title
-    font-weight $weight-bold
-    font-size 30px
-    color $color-font-title
+		@media	$screen-sm-max
+			margin 0 0 20px
 
-  &__text
-    font-weight $weight-light
-    font-size 15px
-    color $color-font-article
-    line-height 21px
+			.overview__title, .overview__text
+				text-align center
 
-  &__pic
-    max-width 704px
-    max-height 405px
+	&__title
+		font-weight $weight-bold
+		font-size 30px
+		color $color-font-title
+
+	&__text
+		font-weight $weight-light
+		font-size 15px
+		color $color-font-article
+		line-height 21px
+
+	&__pic
+		max-width 704px
+		max-height 405px
+
+		@media $lg-up
+			padding 0 15px
+			margin-right -15px
+			margin-left 15px
+
+		&--left
+			@media $lg-up
+				margin-right 15px
+				margin-left -15px
