@@ -4,99 +4,99 @@
 
 // Centered container element
 container-fixed($gutter = $grid-gutter-width)
-  margin-right auto
-  margin-left auto
-  padding-left ($gutter / 2)
-  padding-right ($gutter / 2)
+	margin-right auto
+	margin-left auto
+	padding-left ($gutter / 2)
+	padding-right ($gutter / 2)
 
 // Creates a wrapper for a series of columns
 make-row($gutter = $grid-gutter-width)
-  margin-left ($gutter / -2)
-  margin-right ($gutter / -2)
+	margin-left ($gutter / -2)
+	margin-right ($gutter / -2)
 
 // Generate the extra small columns
 make-xs-column($columns, $gutter = $grid-gutter-width)
-  position relative
-  width percentage(($columns / $grid-columns))
-  min-height 1px
-  padding-left ($gutter / 2)
-  padding-right ($gutter / 2)
+	position relative
+	width percentage(($columns / $grid-columns))
+	min-height 1px
+	padding-left ($gutter / 2)
+	padding-right ($gutter / 2)
 
 make-xs-column-offset($columns)
-  margin-left percentage(($columns / $grid-columns))
+	margin-left percentage(($columns / $grid-columns))
 
 make-xs-column-push($columns)
-  left percentage(($columns / $grid-columns))
+	left percentage(($columns / $grid-columns))
 
 make-xs-column-pull($columns)
-  right percentage(($columns / $grid-columns))
+	right percentage(($columns / $grid-columns))
 
 // Generate the small columns
 make-sm-column($columns, $gutter = $grid-gutter-width)
-  position relative
-  min-height 1px
-  padding-left ($gutter / 2)
-  padding-right ($gutter / 2)
+	position relative
+	min-height 1px
+	padding-left ($gutter / 2)
+	padding-right ($gutter / 2)
 
-  @media $small-up
-    width percentage(($columns / $grid-columns))
+	@media $small-up
+		width percentage(($columns / $grid-columns))
 
 make-sm-column-offset($columns)
-  @media $small-up
-    margin-left percentage(($columns / $grid-columns))
+	@media $small-up
+		margin-left percentage(($columns / $grid-columns))
 
 make-sm-column-push($columns)
-  @media $small-up
-    left percentage(($columns / $grid-columns))
+	@media $small-up
+		left percentage(($columns / $grid-columns))
 
 make-sm-column-pull($columns)
-  @media $small-up
-    right percentage(($columns / $grid-columns))
+	@media $small-up
+		right percentage(($columns / $grid-columns))
 
 // Generate the medium columns
 make-md-column($columns, $gutter = $grid-gutter-width)
-  position relative
-  min-height 1px
-  padding-left ($gutter / 2)
-  padding-right ($gutter / 2)
+	position relative
+	min-height 1px
+	padding-left ($gutter / 2)
+	padding-right ($gutter / 2)
 
-  @media $medium-up
-    width percentage(($columns / $grid-columns))
+	@media $medium-up
+		width percentage(($columns / $grid-columns))
 
 make-md-column-offset($columns)
-  @media $medium-up
-    margin-left percentage(($columns / $grid-columns))
+	@media $medium-up
+		margin-left percentage(($columns / $grid-columns))
 
 make-md-column-push($columns)
-  @media $medium-up
-    left percentage(($columns / $grid-columns))
+	@media $medium-up
+		left percentage(($columns / $grid-columns))
 
 make-md-column-pull($columns)
-  @media $medium-up
-    right percentage(($columns / $grid-columns))
+	@media $medium-up
+		right percentage(($columns / $grid-columns))
 
 // Generate the large columns
 make-lg-column($columns, $gutter = $grid-gutter-width)
-  position relative
-  min-height 1px
-  padding-left ($gutter / 2)
-  padding-right ($gutter / 2)
+	position relative
+	min-height 1px
+	padding-left ($gutter / 2)
+	padding-right ($gutter / 2)
 
-  @media $large-up
-    width percentage(($columns / $grid-columns))
+	@media $large-up
+		width percentage(($columns / $grid-columns))
 
 make-lg-column-offset($columns)
-  @media $large-up
-    margin-left percentage(($columns / $grid-columns))
+	@media $large-up
+		margin-left percentage(($columns / $grid-columns))
 
 make-lg-column-push($columns)
-  @media $large-up
-    left percentage(($columns / $grid-columns))
+	@media $large-up
+		left percentage(($columns / $grid-columns))
 
 make-lg-column-pull($columns)
-  @media $large-up
-    right percentage(($columns / $grid-columns))
-    
+	@media $large-up
+		right percentage(($columns / $grid-columns))
+		
 
 //
 // Grid system
@@ -108,14 +108,14 @@ make-lg-column-pull($columns)
 // Set the container width, and override it for fixed navbars in media queries.
 
 .container
-  container-fixed()
+	container-fixed()
 
-  @media (min-width $screen-sm-min)
-    max-width $container-sm
-  @media (min-width $screen-md-min)
-    max-width $container-md
-  @media (min-width $screen-lg-min)
-    max-width $container-lg
+	@media (min-width $screen-sm-min)
+		max-width $container-sm
+	@media (min-width $screen-md-min)
+		max-width $container-md
+	@media (min-width $screen-lg-min)
+		max-width $container-lg
 
 
 // Fluid container
@@ -124,7 +124,7 @@ make-lg-column-pull($columns)
 // width for fluid, full width layouts.
 
 .container-fluid
-  container-fixed()
+	container-fixed()
 
 
 // Row
@@ -132,9 +132,10 @@ make-lg-column-pull($columns)
 // Use flexbox with rows
 
 .row
-  make-row()
-  display flex
-  flex-wrap wrap
+	make-row()
+	display flex
+	flex-wrap wrap
+	min-width 100%
 
 
 // Columns
@@ -158,7 +159,7 @@ make-grid(xs)
 // to tablets.
 
 @media $sm-up
-  make-grid(sm)
+	make-grid(sm)
 
 
 // Medium grid
@@ -166,7 +167,7 @@ make-grid(xs)
 // Columns, offsets, pushes, and pulls for the desktop device range.
 
 @media $md-up
-  make-grid(md)
+	make-grid(md)
 
 
 // Large grid
@@ -174,5 +175,5 @@ make-grid(xs)
 // Columns, offsets, pushes, and pulls for the large desktop device range.
 
 @media $lg-up
-  make-grid(lg)
+	make-grid(lg)
 
