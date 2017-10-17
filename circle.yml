@@ -13,3 +13,7 @@ compile:
   override:
     - npm install
     - npm run deploy
+
+test:
+  override:
+    - "true"
