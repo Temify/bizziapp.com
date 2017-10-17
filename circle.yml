@@ -8,6 +8,7 @@ machine:
 dependencies:
   pre:
     - npm install -g gulp
+    - npm install
 
 compile:
   override:
