@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 6.11.3
+  npm:
+    version: 5.4.2
+  timezone: Europe/Prague
+
+dependencies:
+  pre:
+    - npm install -g gulp
+
+compile:
+  override:
+    - npm run deploy
