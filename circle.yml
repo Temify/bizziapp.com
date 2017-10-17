@@ -8,8 +8,8 @@ machine:
 dependencies:
   pre:
     - npm install -g gulp
-    - npm install
 
 compile:
   override:
+    - npm install
     - npm run deploy
