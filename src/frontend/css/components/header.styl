@@ -4,14 +4,13 @@
 	background-color $color-header-bg
 	background-size cover
 	padding-bottom 60px
+	position relative
 
 	&--product
-		padding-bottom 0
-		background-color $color-header-product-bg
-		background-size cover
+		background-color $color-header-bg
 		position relative
 
-		&::before
+		&::after
 			content ' '
 			display block
 			position absolute
@@ -19,7 +18,41 @@
 			top 0
 			right 0
 			bottom 0
-			background-color rgba($color-header-product-layer , .87)
+			background-color rgba($color-header-product-layer , .8)
+
+	&--container-product
+		background-image linear-gradient(to top, rgba(186, 118, 244, 1), rgba(186, 118, 244, 0))
+		background-repeat no-repeat
+		background-position center bottom
+		background-size 90% auto
+		position absolute
+		height 80%
+		bottom 0
+		right -5%
+		left -5%
+		z-index 0
+
+		@media $lg-up
+			background-size auto 90%
+			max-width 100%
+
+		&::before
+			content ''
+			display block
+			padding-bottom 0
+			background-image url('../img/header-product.svg')
+			background-repeat no-repeat
+			background-position center bottom
+			background-size 90% auto
+			position absolute
+			left 7%
+			right 7%
+			top 0
+			bottom 0
+
+	&__text
+		position relative
+		z-index 1
 
 	&__tablet
 		margin 56px auto 0
@@ -134,7 +167,7 @@
 		../--product &
 			width 100%
 			text-align center
-			max-width 100%
+			margin 0 auto 28px
 
 		@media $screen-xs-max
 			max-width 100%
