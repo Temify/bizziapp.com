@@ -50,6 +50,6 @@
   },
   "scripts": {
     "start": "gulp serve",
-    "deploy": "gulp build"
+    "build": "gulp build"
   }
 }

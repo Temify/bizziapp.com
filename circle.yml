@@ -12,7 +12,7 @@ dependencies:
 compile:
   override:
     - npm install
-    - npm run deploy
+    - npm run build
 
 test:
   override:

@@ -22,7 +22,7 @@ gulp.task('images:raw', function() {
         .pipe(gulp.dest(config.dest));
 });
 
-gulp.task('images', ['svg2png', 'images:raw'], function() {
+gulp.task('images', [/*'svg2png',*/ 'images:raw'], function() {
     return gulp.src(config.src)
         .pipe(changed(config.dest))
         .pipe(gulp.dest(config.dest));
