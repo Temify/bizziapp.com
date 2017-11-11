@@ -3,12 +3,15 @@
 	flex-grow 1
 	background-color $color-header-bg
 	background-size cover
+	background-position center -20%
+	background-repeat no-repeat
 	padding-bottom 60px
 	position relative
 
 	&--product
 		background-color $color-header-bg
 		position relative
+		background-position center
 
 		&::after
 			content ' '
@@ -82,7 +85,8 @@
 			align-items center
 
 	&__lang-wrap
-		display flex
+		//display flex
+		display none
 		justify-content flex-end
 		align-items baseline
 		margin-top 14px
@@ -135,8 +139,10 @@
 		font-weight $weight-regular
 		font-size 15px
 		color white
-		border none
-		padding-bottom 3px
+		display flex
+		align-items center
+		justify-content center
+		text-decoration none
 		background-color $color-header-button
 		transition background-color 0.2s ease-in-out
 
