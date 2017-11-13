@@ -24,6 +24,8 @@ header.header(style='background-image: url(\'assets/frontend/img/header-backgrou
 					.header__description.
 						Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.
 					.header__subscription
-						input(placeholder='E-mail' type='email').header__email
-						button(type='submit' value='submit').header__send.
-							Odeslat
+						form(action='https://bizziapp.us17.list-manage.com/subscribe/post?u=9e52db3f58c43c9ac069d2d38&amp;id=ba8211c81f', target='_blank', method='POST', novalidate)
+							input(placeholder='E-mail', name='EMAIL', type='email').header__email
+							input(type='hidden', name='b_9e52db3f58c43c9ac069d2d38_ba8211c81f', tabindex='-1', value='')
+							button(type='submit' value='submit').header__send.
+								Odeslat
