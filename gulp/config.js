@@ -72,7 +72,7 @@ module.exports = {
     scripts: {
         src: [
             src + '/js/plugins/**/*.js',
-            src + '/js/global.js',
+            src + '/js/*',
             src + '/js/modules/**/*.js',
             src + '/js/app.js'
         ],
