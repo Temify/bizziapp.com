@@ -17,3 +17,13 @@ compile:
 test:
   override:
     - "true"
+
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync public s3://bizziapp.com/ --delete
+  development:
+    branch: /.*?/
+    commands:
+      - aws s3 sync public s3://web.bizziapp.com/ --delete
