@@ -23,6 +23,7 @@ deployment:
     branch: master
     commands:
       - aws s3 sync public s3://bizziapp.com/ --delete
+      - aws s3 sync s3://bizziapp.com/ s3://www.bizziapp.com/ --delete
   development:
     branch: /.*?/
     commands:
