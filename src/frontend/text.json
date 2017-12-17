@@ -1,0 +1,71 @@
+{
+	"cz": {
+		"head": {
+			"pageTitle": "Bizzi",
+			"description": "Firemní nástroj pro sledování týmové práce budování vztahů s vašimi klienty.",
+			"title": "Dokonalé zázemí pro obchodníky",
+			"locale": "cz"
+		},
+		"header": {
+			"linkProduct": "produkt",
+			"linkLogin": "přihlásit",
+			"title": "Dokonalé zázemí pro obchodníky",
+			"description": "Firemní nástroj pro sledování týmové práce a budování vztahů s vašimi klienty.",
+			"submitForm": "Odeslat"
+		},
+		"about": {
+			"title": "O nás",
+			"article": "Bizzapp je komplexní obchodní CRM nástroj, kde budete mít všechny obchodní příležitosti uvnitř Vaší společnsoti jako na dlani. Detailní přehled a řízení veškerých obchodních příležitostí od prvního kontaktu - až po úspěšné uzavření obchodu, to je to, co dělá z Bizzapp zásadního partnera pro maximální růst vašich týmů a tím i celé společnosti. Jednoduše a přitom efektivně."
+		},
+		"contact": {
+			"title": "Buďme efektivní, buďme výkonní, buďme bizzi.",
+			"emailPlaceholder": "E-mailová adresa",
+			"submit": "Chci vědět více",
+			"otherMeans": "Nebo kontaktujte zde:"
+		},
+		"overview": {
+			"article1": {
+				"title": "PŘEHLED 360",
+				"text": "Se sofistikovanou 360kou – detailním přehledem klienta, společnosti a obchodu, máte veškeré informace uloženy srozumitelně, kompaktně a vždy po ruce. Vše od úkolu, schůzek či fází obchodu až po přiložené soubory a smlouvy přehledné na jednom místě. Celá karta poté nabízí i možnost chronologického seřazení veškerých aktivit od prvního kontaktu až po poslední telefonát ve formě intuitivní časové osy. To vše v uživatelsky přátelské formě.",
+				"imageAlt": "Web Design Temify"
+			},
+			"article2": {
+				"title": "TEMPO ÚKOLŮ",
+				"text": "Naše fronty jsou inteligentní. Přizpůsobíme nebo je doporučíme na míru dle tempa Vaší společnosti, aby ste díky automatizaci získali maximum. Ke každému úkolu lze přiřadit nejen podúkoly, soubory nebo komentáře, ale proste cokoli, je potřeba. Fronta úkolu zároveň respektuje hierarchii zadání – od firemní, pres týmovou, až po tu individuální.",
+				"imageAlt": "Moje úkoly"
+			},
+			"article3": {
+				"title": "PRŮVODCE SCHŮZKOU",
+				"text": "Se sofistikovanou 360kou – detailním přehledem klienta, společnosti a obchodu, máte veškeré informace uloženy srozumitelně, kompaktně a vždy po ruce. Vše od úkolu, schůzek či fází obchodu až po přiložené soubory a smlouvy přehledné na jednom místě. Celá karta poté nabízí i možnost chronologického seřazení veškerých aktivit od prvního kontaktu až po poslední telefonát ve formě intuitivní časové osy. To vše v uživatelsky přátelské formě.",
+				"imageAlt": "Prúvodce schůzkou - Střední Čechy"
+			},
+			"article4": {
+				"title": "BIZZI CALL",
+				"text": "Naše fronty jsou inteligentní. Přizpůsobíme nebo je doporučíme na míru dle tempa Vaší společnosti, aby ste díky automatizaci získali maximum. Ke každému úkolu lze přiřadit nejen podúkoly, soubory nebo komentáře, ale proste cokoli, je potřeba. Fronta úkolu zároveň respektuje hierarchii zadání – od firemní, pres týmovou, až po tu individuální.",
+				"imageAlt": "Bizzi Call"
+			}
+		},
+		"progress": {
+			"article1": {
+				"title": "Automatizace",
+				"text": "Nedělejte nic, co za Vás může udělat stroj. Naše automatizace na mnoha úrovních v celém Bizziapp Vás zbaví zdlouhavých, mechanických úloh. Zbyde Vám tak čas na to, na čem v byznysu opravdu záleží.",
+				"imageAlt": "Automatizace"
+			},
+			"article2": {
+				"title": "Customizace",
+				"text": "Chápeme, že každá společnost je jiná. Proto připravujeme naše CRM systémy vždy přesně na míru a skutečně jen pro Vás. Díky přizpůsobení individuálním podmínkám, požadavkům i vytyčeným cílům je Bizziapp neocenitelným pracovním nástrojem.",
+				"imageAlt": "Customizace"
+			},
+			"article3": {
+				"title": "Reporting",
+				"text": "Nemarněte čas tam, kde není hodnota. Díky analýze efektivity a následnému reportu pracujete s daty, která pro Vás mají význam. Biziapp to dokáže, protože je přesně přizpůsobena tomu, co je pro Vás důležité.",
+				"imageAlt": "Reporting"
+			}
+		},
+		"footer": {
+			"terms": "Podmínky užívání"
+		}
+	},
+	"en": {
+	}
+}

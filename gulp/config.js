@@ -46,8 +46,8 @@ module.exports = {
         rasterDest: src + '/img'
     },
     jade: {
-        src: src + '/views/*.jade',
-        watch: src + '/views/**/*.jade',
+        src: src + '/views/*.pug',
+        watch: src + '/views/**/*.pug',
         dest: 'public/'
     },
     iconfont: {
