@@ -83,7 +83,7 @@
 			"submitForm": "Send"
 		},
 		"about": {
-			"title": "ABOUT US",
+			"title": "About us",
 			"article": "From the very beginning, we have been trying to make Bizziapp easy to use for anyone and perfectly tailored for everyone. At first, this may seem like a paradox – and that is exactly what we seek. Bizziapp works somewhat like a building kit. Just say what you need to build, and we will deliver the right cubes. A manual? That will not be necessary. Everything is completely intuitive and always at hand. New contacts are directly connected to the company. Do you need to speak to the new contact? With one click, you are reviewing tasks, with a second, you are creating business, and with a third, you are sharing with other users of the app. A detailed report is created on its own. Everything is interconnected. The best solutions are usually the simplest."
 		},
 		"contact": {
@@ -116,14 +116,14 @@
 		},
 		"progress": {
 			"article1": {
-				"title": "AUTOMATION",
+				"title": "Automation",
 				"text": "Do not do anything a machine can do for you. Thanks to the automation at many levels throughout Bizziapp, you can avoid lengthy, mechanical tasks. Thus, you can devote your time to what really matters in business.",
-				"imageAlt": "AUTOMATION"
+				"imageAlt": "Automation"
 			},
 			"article2": {
-				"title": "CUSTOMISATION",
+				"title": "Customisation",
 				"text": "We understand that each company is different. Therefore, our CRM systems are precisely tailored and actually just for you. Thanks to the adaptation to individual conditions and requirements as well as set goals, Bizziapp is an invaluable tool",
-				"imageAlt": "CUSTOMISATION"
+				"imageAlt": "Customisation"
 			},
 			"article3": {
 				"title": "Reporting",
