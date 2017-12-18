@@ -46,7 +46,7 @@ module.exports = {
         rasterDest: src + '/img'
     },
     jade: {
-        src: src + '/views/*.pug',
+        src: [src + '/views/*.pug', src + '/views/en/*.pug'],
         watch: src + '/views/**/*.pug',
         dest: 'public/'
     },

@@ -3,24 +3,26 @@ header.header--product
 	.container.header__text
 			.col-xs-12
 				.header__lang-wrap
-					a(href='#').header__lang.
+					- var czechActive = lang.language === 'cz' ? 'active' : ''
+					a(href='#', class="header__lang " + czechActive).
 						cz
 					.header__line
-					a(href='#').header__lang.active.
-						EN
+					- var englishActive = lang.language === 'en' ? 'active' : ''
+					a(href='#', class="header__lang " + englishActive).
+						en
 				.header__wrap
 					.header__logo
 						a(href='/', title='bizZiapp home')
-							img(src='assets/frontend/img/logo.png', alt='logo', width='113px', height='28px')
+							img(src='assets/frontend/img/logo.svg', alt='logo', width='113px', height='28px')
 					.header__login-wrap
 						a(href='/product.html', title='Product').header__product-link.
-							produkt
+							#{lang.header.linkProduct}
 						a(href='http://demo.bizziapp.com/', title='Log in').header__login.
-							přihlásit
+							#{lang.header.linkLogin}
 
 			.col-xs-12
 				.text-block
 					h1.header__title.fadeIn.
-						Dokonalé zázemí pro obchodníky
+						#{lang.header.title}
 				.header__tablet.fadeIn
 					img(src='assets/frontend/img/tablet.png', alt='tablet', style='width: 100%; max-width: 497px; margin: 0 auto;')

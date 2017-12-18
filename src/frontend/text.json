@@ -1,5 +1,6 @@
 {
 	"cz": {
+		"language": "cz",
 		"head": {
 			"pageTitle": "Bizzi",
 			"description": "Firemní nástroj pro sledování týmové práce budování vztahů s vašimi klienty.",
@@ -40,7 +41,7 @@
 				"imageAlt": "Prúvodce schůzkou - Střední Čechy"
 			},
 			"article4": {
-				"title": "BIZZI CALL",
+				"title": "BIZZICALL",
 				"text": "Naše fronty jsou inteligentní. Přizpůsobíme nebo je doporučíme na míru dle tempa Vaší společnosti, aby ste díky automatizaci získali maximum. Ke každému úkolu lze přiřadit nejen podúkoly, soubory nebo komentáře, ale proste cokoli, je potřeba. Fronta úkolu zároveň respektuje hierarchii zadání – od firemní, pres týmovou, až po tu individuální.",
 				"imageAlt": "Bizzi Call"
 			}
@@ -67,5 +68,71 @@
 		}
 	},
 	"en": {
+		"language": "en",
+		"head": {
+			"pageTitle": "Bizzi",
+			"description": "A corporate tool for watching your team work and building relationships with your clients.",
+			"title": "Perfect ground for traders",
+			"locale": "en"
+		},
+		"header": {
+			"linkProduct": "product",
+			"linkLogin": "log in",
+			"title": "Perfect ground for traders",
+			"description": "A corporate tool for watching your team work and building relationships with your clients.",
+			"submitForm": "Send"
+		},
+		"about": {
+			"title": "ABOUT US",
+			"article": "From the very beginning, we have been trying to make Bizziapp easy to use for anyone and perfectly tailored for everyone. At first, this may seem like a paradox – and that is exactly what we seek. Bizziapp works somewhat like a building kit. Just say what you need to build, and we will deliver the right cubes. A manual? That will not be necessary. Everything is completely intuitive and always at hand. New contacts are directly connected to the company. Do you need to speak to the new contact? With one click, you are reviewing tasks, with a second, you are creating business, and with a third, you are sharing with other users of the app. A detailed report is created on its own. Everything is interconnected. The best solutions are usually the simplest."
+		},
+		"contact": {
+			"title": "Be Bizzi!",
+			"emailPlaceholder": "E-mail address",
+			"submit": "I want to receive news",
+			"otherMeans": "Or contact us here:"
+		},
+		"overview": {
+			"article1": {
+				"title": "OVERVIEW 360",
+				"text": "With the sophisticated 360 – a detailed overview of the client, company, and trade - you have all the information stored in an intelligible and compact way, and always at hand. From appointments, tasks and phases of the trade to the attached files and contracts, all is kept in one place. The entire card then offers the possibility of chronological ordering of all activities from the first contact through to the last phone call in the form of an intuitive timeline. All of this comes in a user-friendly form.",
+				"imageAlt": "Web Design Temify"
+			},
+			"article2": {
+				"title": "SPEED OF TASKING",
+				"text": "We develop intelligent queues. We will adapt or recommend queues tailored to the pace of your company so you can use all the maximum possibilities of automation. Each task can be assigned with not only subtasks, files or comments, but just about anything necessary. Our task queues also respect the hierarchy of tasks - from the corporate, through teamwork, down to the individual.",
+				"imageAlt": "Our tasks"
+			},
+			"article3": {
+				"title": "GUIDE TO YOUR APPOINTMENTS",
+				"text": "A vital tool, without which you will not want to step out of the office. A carefully prepared script of each meeting will ensure that nothing of importance is omitted. Complemented by multimedia attachments, it allows you to demonstrate the latest news to your clients, whether it be product documentation or video. All of this can be done remotely or in real time.",
+				"imageAlt": "Appointment guide"
+			},
+			"article4": {
+				"title": "BIZZICALL",
+				"text": "Linked with a private telecom solution, Bizziapp allows you to make and closely monitor all contact with your clients. Call details are automatically saved to the 360 and can later be put on the timeline. At the same time, we are able to evaluate the results of the call based on this data. Combining all these features creates a tool that will ensure your business has the highest level of customer support regardless of who is currently holding the handset.",
+				"imageAlt": "Bizzi Call"
+			}
+		},
+		"progress": {
+			"article1": {
+				"title": "AUTOMATION",
+				"text": "Do not do anything a machine can do for you. Thanks to the automation at many levels throughout Bizziapp, you can avoid lengthy, mechanical tasks. Thus, you can devote your time to what really matters in business.",
+				"imageAlt": "AUTOMATION"
+			},
+			"article2": {
+				"title": "CUSTOMISATION",
+				"text": "We understand that each company is different. Therefore, our CRM systems are precisely tailored and actually just for you. Thanks to the adaptation to individual conditions and requirements as well as set goals, Bizziapp is an invaluable tool",
+				"imageAlt": "CUSTOMISATION"
+			},
+			"article3": {
+				"title": "Reporting",
+				"text": "Do not waste time where there is no value. Thanks to the effectiveness analysis and subsequent reporting, you are only working with data relevant to you. Bizziapp can do it because it is precisely tailored to what is important to you.",
+				"imageAlt": "Reporting"
+			}
+		},
+		"footer": {
+			"terms": "Terms and conditions"
+		}
 	}
 }
