@@ -4,18 +4,20 @@ header.header--product
 			.col-xs-12
 				.header__lang-wrap
 					- var czechActive = lang.language === 'cz' ? 'active' : ''
-					a(href='#', class="header__lang " + czechActive).
+					a(href='product.html', class="header__lang " + czechActive).
 						cz
 					.header__line
 					- var englishActive = lang.language === 'en' ? 'active' : ''
-					a(href='#', class="header__lang " + englishActive).
+					a(href='product-en.html', class="header__lang " + englishActive).
 						en
 				.header__wrap
 					.header__logo
-						a(href='/', title='bizZiapp home')
+						- var logoLink = lang.language === 'cz' ? '/' : '/' + lang.language + '.html'
+						a(href=logoLink, title='bizZiapp home')
 							img(src='assets/frontend/img/logo.svg', alt='logo', width='113px', height='28px')
 					.header__login-wrap
-						a(href='/product.html', title='Product').header__product-link.
+						- var productLang = lang.language === 'cz' ? '' : '-' + lang.language
+						a(href='/product' + productLang + '.html', title='Product').header__product-link.
 							#{lang.header.linkProduct}
 						a(href='http://demo.bizziapp.com/', title='Log in').header__login.
 							#{lang.header.linkLogin}
