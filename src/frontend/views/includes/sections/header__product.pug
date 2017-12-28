@@ -17,7 +17,7 @@ header.header--product
 							img(src='assets/frontend/img/logo.svg', alt='logo', width='113px', height='28px')
 					.header__login-wrap
 						- var productLang = lang.language === 'cz' ? '' : '-' + lang.language
-						a(href='/product' + productLang + '.html', title='Product').header__product-link.
+						a(href='product' + productLang + '.html', title='Product').header__product-link.
 							#{lang.header.linkProduct}
 						a(href='http://demo.bizziapp.com/', title='Log in').header__login.
 							#{lang.header.linkLogin}
