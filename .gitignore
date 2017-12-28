@@ -4,4 +4,3 @@ resources/**/*
 !resources/*
 resources/.DS_Store
 .idea/*
-public/**/*

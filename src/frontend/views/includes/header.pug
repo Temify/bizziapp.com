@@ -3,7 +3,7 @@ header.header(style='background-image: url(\'assets/frontend/img/header-backgrou
 		.col-xs-12
 			.header__lang-wrap
 				- var czechActive = lang.language === 'cz' ? 'active' : ''
-				a(href='/', class="header__lang " + czechActive).
+				a(href='index.html', class="header__lang " + czechActive).
 					cz
 				.header__line
 				- var englishActive = lang.language === 'en' ? 'active' : ''
@@ -11,12 +11,12 @@ header.header(style='background-image: url(\'assets/frontend/img/header-backgrou
 					en
 			.header__wrap
 				.header__logo
-					- var logoLink = lang.language === 'cz' ? '/' : '/' + lang.language + '.html'
+					- var logoLink = lang.language === 'cz' ? 'index.html' : '' + lang.language + '.html'
 					a(href=logoLink, title='bizZiapp home')
 						img(src='assets/frontend/img/logo.svg', alt='logo', width='113px', height='28px')
 				.header__login-wrap
 					- var productLang = lang.language === 'cz' ? '' : '-' + lang.language
-					a(href='/product' + productLang + '.html', title='Product').header__product-link.
+					a(href='product' + productLang + '.html', title='Product').header__product-link.
 						#{lang.header.linkProduct}
 					a(href='http://demo.bizziapp.com/', title='Log in').header__login.
 						#{lang.header.linkLogin}
