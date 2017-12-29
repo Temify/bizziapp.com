@@ -2,7 +2,7 @@
 	"cz": {
 		"language": "cz",
 		"head": {
-			"pageTitle": "Bizzi",
+			"pageTitle": "BizziApp",
 			"description": "Firemní nástroj pro sledování týmové práce budování vztahů s vašimi klienty.",
 			"title": "Dokonalé zázemí pro obchodníky",
 			"locale": "cz"
@@ -70,7 +70,7 @@
 	"en": {
 		"language": "en",
 		"head": {
-			"pageTitle": "Bizzi",
+			"pageTitle": "BizziApp",
 			"description": "A corporate tool for watching your team work and building relationships with your clients.",
 			"title": "Intuitive solutions for sales",
 			"locale": "en"
