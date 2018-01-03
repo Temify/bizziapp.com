@@ -12,7 +12,7 @@ header.header--product
 						en
 				.header__wrap
 					.header__logo
-						- var logoLink = lang.language === 'cz' ? '/' : '/' + lang.language
+						- var logoLink = lang.language === 'cz' ? 'index.html' : '' + lang.language + '.html'
 						a(href=logoLink, title='bizZiapp home')
 							img(src='assets/frontend/img/logo.svg', alt='logo', width='113px', height='28px')
 					.header__login-wrap
